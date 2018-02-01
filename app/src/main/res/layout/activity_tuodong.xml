@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!-- 建立第一个TextView -->
+    <TextView
+        android:id="@+id/myTextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        />
+    <!-- 建立第二个TextView -->
+
+    <!-- 建立第三个TextView -->
+
+    <!-- 建立第四个TextView -->
+
+    <!-- 建立第一个ToggleButton -->
+    <TextView
+        android:id="@+id/myTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="短时"
+        />
+    <ToggleButton
+        android:id="@+id/myTogglebutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29px"
+        android:layout_y="31px"
+        />
+    <!-- 建立第二个ToggleButton -->
+    <TextView
+        android:id="@+id/myTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="长时"
+        />
+    <ToggleButton
+        android:id="@+id/myTogglebutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29px"
+        android:layout_y="114px"
+        />
+    <!-- 建立第三个ToggleButton -->
+    <TextView
+        android:id="@+id/myTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="有节奏感"
+        />
+    <ToggleButton
+        android:id="@+id/myTogglebutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29px"
+        android:layout_y="214px"
+        />
+</LinearLayout>

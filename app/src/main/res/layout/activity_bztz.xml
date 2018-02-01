@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hankchang.three_project.bztz">
+    <TextView
+        android:text="身高"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+    android:id="@+id/bz01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/rg01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb01"
+            android:text="man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rb02"
+            android:text="woman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/b003"
+        android:text="计算"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/s001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
